@@ -4,6 +4,11 @@ Use this starter if you want to give Code Hike v1 a try:
 npx create-next-app -e https://github.com/code-hike/v1-starter
 ```
 
+Or you can also try it on:
+
+- [StackBlitz](https://stackblitz.com/github/code-hike/v1-starter)
+- [CodeSandbox](https://codesandbox.io/s/github/code-hike/v1-starter)
+
 It includes:
 
 - Next.js 14 with app router
