@@ -3,7 +3,7 @@
   "semi": false,
   "overrides": [
     {
-      "files": ["*.mdx"],
+      "files": ["*.mdx", "*.md"],
       "options": {
         "printWidth": 42,
         "semi": false
