@@ -16,5 +16,6 @@ It includes:
 - TypeScript
 - MDX
 - Code Hike v1
+- examples: scrollycoding, slideshow, and tab interfaces
 
 For more information, check out the [Code Hike v1 docs](https://v1.codehike.org/docs).
