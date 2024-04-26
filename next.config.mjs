@@ -8,11 +8,16 @@ const nextConfig = {
   // Optionally, add any other Next.js config below
 }
 
+/** @type {import('codehike/mdx').CodeHikeConfig} */
+const chConfig = {
+  components: { code: "Code" },
+}
+
 const withMDX = createMDX({
   extension: /\.mdx?$/,
   options: {
-    remarkPlugins: [remarkCodeHike],
-    recmaPlugins: [recmaCodeHike],
+    remarkPlugins: [[remarkCodeHike, chConfig]],
+    recmaPlugins: [[recmaCodeHike, chConfig]],
     jsx: true,
   },
 })
