@@ -1,5 +1,5 @@
 import { Pre, RawCode, highlight } from "codehike/code"
-import { callout } from "./callout"
+import { callout } from "./annotations/callout"
 
 export async function Code({ codeblock }: { codeblock: RawCode }) {
   const highlighted = await highlight(codeblock, "github-dark")

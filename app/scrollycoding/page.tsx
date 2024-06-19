@@ -1,9 +1,14 @@
 import { Block, CodeBlock, parseRoot } from "codehike/blocks"
 import { z } from "zod"
 import { Pre, RawCode, highlight } from "codehike/code"
-import { Selection, Selectable, SelectionProvider } from "codehike/utils"
+import {
+  Selection,
+  Selectable,
+  SelectionProvider,
+} from "codehike/utils/selection"
 import Content from "./content.md"
 import Link from "next/link"
+import { tokenTransitions } from "../components/annotations/token-transitions"
 
 const Schema = Block.extend({
   intro: Block,
@@ -50,5 +55,11 @@ export default function Page() {
 
 async function Code({ codeblock }: { codeblock: RawCode }) {
   const highlighted = await highlight(codeblock, "github-dark")
-  return <Pre code={highlighted} className="min-h-[40rem] bg-transparent" />
+  return (
+    <Pre
+      code={highlighted}
+      handlers={[tokenTransitions]}
+      className="min-h-[40rem] bg-transparent"
+    />
+  )
 }
