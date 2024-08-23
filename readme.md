@@ -6,8 +6,8 @@ npx create-next-app -e https://github.com/code-hike/v1-starter
 
 Or you can also try it on:
 
-- [StackBlitz](https://stackblitz.com/github/code-hike/v1-starter)
-- [CodeSandbox](https://codesandbox.io/s/github/code-hike/v1-starter)
+- [StackBlitz](https://stackblitz.com/github/code-hike/v1-starter?file=app%2Fpage.mdx)
+- [CodeSandbox](https://codesandbox.io/s/github/code-hike/v1-starter?file=app%2Fpage.mdx)
 
 It includes:
 
