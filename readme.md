@@ -1,4 +1,4 @@
-Use this starter if you want to give Code Hike v1 a try:
+Use this starter if you want to give Code Hike v1.0 a try:
 
 ```bash
 npx create-next-app -e https://github.com/code-hike/v1-starter
@@ -15,6 +15,6 @@ It includes:
 - Tailwind CSS + @tailwindcss/typography
 - TypeScript
 - MDX
-- Code Hike v1
+- Code Hike v1.0
 
-For more information, check out the [Code Hike v1 docs](https://v1.codehike.org/docs).
+For more information, check out the [Code Hike docs](https://codehike.org/docs).
