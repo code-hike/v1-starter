@@ -6,7 +6,7 @@ import {
   Selectable,
   SelectionProvider,
 } from "codehike/utils/selection"
-import Content from "./content.md"
+import Content from "./content.mdx"
 import Link from "next/link"
 import { tokenTransitions } from "../components/annotations/token-transitions"
 

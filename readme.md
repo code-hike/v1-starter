@@ -11,7 +11,7 @@ Or you can also try it on:
 
 It includes:
 
-- Next.js 14 with app router
+- Next.js 15 with app router
 - Tailwind CSS + @tailwindcss/typography
 - TypeScript
 - MDX
